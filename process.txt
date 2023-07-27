@@ -1,0 +1,49 @@
+rcc --> export default class Filename extends Component{}
+rce --> export class Filename extends Component{}
+rcep --> export class Filename extends Component{} and import PropTypes
+rpc --> import PureComponent
+rpcp --> import PureComponent and PropTypes and default class
+rpce --> import PureComponent and PropTypes
+rccp --> import PropTypes and default class
+rfcp --> import PureComponent and function
+rfc -->  export default function
+rfce --> export default function and export
+rafcp --> import PropTypes and export default
+rafc --> export const
+rafce --> const function with export default
+rmc --> export default
+rmcp --> import PropTypes and cnst export
+
+
+npm i json-server
+npm run server
+npm i -D react-router-dom@latest
+npm install bootstrap
+npm install jquery popper.js
+
+JSX --> JavaScript XML
+JSX --> makes it easier to write React applications.
+createRoot --> function takes one argument, an HTML element
+Components --> They serve the same purpose as JavaScript functions, but work in isolation and return HTML
+constructer --> function in your component, this function will be called when the component gets initiated.
+state --> component properties should be kept in an object (properties:values)
+setState --> method to change the state object,  its been updated and calls the render() method.
+super --> parent component 
+props --> Props are like function arguments, and you send them into the component as attributes.
+Lifecycle --> Mounting, Updating, Unmounting.
+render --> method is required and will always be called
+getDerivedStateFromProps() --> method is called right before rendering the element(s) in the DOM
+css styling -->  style={{color: "red"}}
+Hooks --> Hooks allow function components to have access to state and other React features. Because of this, class components are generally no longer needed.
+Although Hooks generally replace class components, there are no plans to remove classes from React.
+Hooks will not work in React class components
+useState Hook--> Here we are using the useState Hook to keep track of the application state.
+useEffect Hook --> The useEffect Hook allows you to perform side effects in your components.
+useEffect(() => { });
+useEffect(() => { }, []);
+useEffect(() => { }, [prop, state]);
+prop drilling --> To do this without Context, we will need to pass the state as "props" through each nested component.
+useRef Hook --> allows you to persist values between renders.
+useReducer Hook  --> is similar to the useState Hook
+useCallback Hook --> returns a memoized callback function.
+useMemo Hook --> returns a memoized value.

@@ -1,0 +1,34 @@
+{
+  "tasks": [
+    {
+      "id": 1,
+      "text": "Doctors Appointment",
+      "day": "Feb 5th at 2:30pm",
+      "reminder": true
+    },
+    {
+      "text": "Test 1",
+      "day": "2023-06-21",
+      "reminder": "false",
+      "id": 2
+    },
+    {
+      "text": "Test 2",
+      "day": "2023-06-22",
+      "reminder": "false",
+      "id": 3
+    },
+    {
+      "text": "Test",
+      "day": "2023-06-23",
+      "reminder": "false",
+      "id": 4
+    },
+    {
+      "text": "Testing ",
+      "day": "2023-06-22",
+      "reminder": "false",
+      "id": 5
+    }
+  ]
+}
